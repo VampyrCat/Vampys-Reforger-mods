@@ -1,0 +1,8 @@
+GameProject {
+ ID "ReforgerManhunt"
+ GUID "6198780A157F65B0"
+ TITLE "Reforger Manhunt"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
