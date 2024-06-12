@@ -3,6 +3,20 @@ GameProject {
  GUID "6198780A157F65B0"
  TITLE "Reforger Manhunt"
  Dependencies {
-  "58D0FB3206B6F859"
+  "58D0FB3206B6F859" "5EAF2B0473DB5A99" "5EE9238E61637E47"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
  }
 }
