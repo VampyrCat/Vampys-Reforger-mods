@@ -59,6 +59,10 @@ StaticModelEntity : "{34F58F49290CBB7B}PrefabsEditable/Auto/Compositions/Misc/Su
  coords 2510.421 147.611 2277.244
  angleY -175.234
 }
+GenericEntity : "{3A64925BC81FC2C0}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_short_high_plastic.et" {
+ coords 3180.987 10.169 2827.62
+ angleY 44.056
+}
 $grp GenericEntity : "{7F118C6EA2AF1C99}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_long_high_plastic.et" {
  {
   coords 2516.581 147.311 2253.018
@@ -111,6 +115,66 @@ $grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_
   scale 1.24
  }
 }
+GenericEntity : "{95E4917C4E27A44D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_plastic.et" {
+ coords 3178.76 10.64 2829.814
+ angleY 46.818
+}
+$grp GameEntity : "{95EFB2EE402F81DB}PrefabsEditable/Auto/Props/Military/Generators/E_GeneratorFloodlight_US_01.et" {
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{587E9C1D47ACAF0D}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 2513.591 147.503 2253.892
+  angleY 138.663
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{587E9C1D47ACAF0D}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 2497.129 148.179 2252.538
+  angleY -125.194
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{587E9C1D47ACAF0D}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 2517.985 147.253 2283.191
+  angleY 76.835
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{587E9C1D47ACAF0D}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 2503.038 147.29 2297.377
+  angleY -64.909
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{587E9C1D47ACAF0D}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 1427.286 36.687 2320.178
+  angleY 80.125
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{587E9C1D47ACAF0D}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 1447.026 36.317 2266.866
+  angleY 32.621
+ }
+}
 GenericEntity : "{B725D7E80F3331D7}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Medical_US_01.et" {
  coords 2537.994 143.619 2264.851
  angleY -93.746
@@ -140,6 +204,16 @@ $grp GenericEntity : "{B8138FFE79F61D33}PrefabsEditable/Auto/Compositions/Slotte
 GenericEntity : "{BC54A982515C5453}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_SandbagCover_US_05.et" {
  coords 1450.828 36.237 2288.785
  angleY 99.88
+}
+$grp GenericEntity : "{C3F2F7B92EAB5A14}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 3185.024 9.662 2840.179
+  angleY -43.986
+ }
+ {
+  coords 3187.938 9.538 2837.36
+  angleY -43.986
+ }
 }
 $grp GenericEntity : "{D447BB1EC532921D}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_02.et" {
  {

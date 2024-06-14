@@ -1,0 +1,26 @@
+SCR_FactionControlTriggerEntity USSR_Leave_Objective {
+ coords 2230.542 148.27 2232.667
+ TriggerShapeType "Oriented Bounding Box"
+ BoxMins -2200 -200 -2000
+ BoxMaxs 1800 100 1800
+ TriggerActivationType "All changes"
+ OnActivate ""\
+ "		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());"\
+ "		Faction faction = GetGame().GetFactionManager().GetFactionByKey(\"US\");"\
+ "		int usIndex = GetGame().GetFactionManager().GetFactionIndex(faction);"\
+ "		gameMode.EndGameMode(SCR_GameModeEndData.CreateSimple(EGameOverTypes.EDITOR_FACTION_VICTORY, -1, usIndex));"\
+ "	"
+ m_sOwnerFactionKey "USSR"
+ m_fFriendlyRatioLimit 1
+}
+$grp GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et" {
+ IntelligenceFolder_E_01_619D148C442B4C63 {
+  coords 3179.813 11.548 2839.142
+ }
+ IntelligenceFolder_E_01_619D148CE0031981 {
+  coords 1404.222 21.688 1813.899
+ }
+}
+GenericEntity : "{A8122C6398FC8458}PrefabsEditable/Auto/Props/Furniture/TableSmall_01/E_TableSmall_01_DarkWood.et" {
+ coords 1404.278 20.988 1813.887
+}

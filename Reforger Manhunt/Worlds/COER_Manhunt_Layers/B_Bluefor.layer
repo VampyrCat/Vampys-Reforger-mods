@@ -1,14 +1,33 @@
+$grp SCR_VehicleSpawn {
+ {
+  coords 1300.201 37.809 2869.307
+  m_rnPrefab "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+  respawnDelay 3
+ }
+ {
+  coords 1383.536 36.264 2365.358
+  m_rnPrefab "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et"
+ }
+ {
+  coords 1382.192 36.369 2369.906
+  m_rnPrefab "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+ }
+ {
+  coords 1379.271 36.299 2375.598
+  m_rnPrefab "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et"
+ }
+ {
+  coords 1376.139 36.402 2379.842
+  m_rnPrefab "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et"
+ }
+}
 SCR_AIGroup : "{456C663A5DD53FF7}Prefabs/Groups/BLUFOR/1980s/BLUFOR_Airport_Guards.et" {
  coords 1385.911 36.093 2396.118
 }
-Vehicle UH1H_619CF967A383B4F3 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
- coords 1296.7 37.86 2871.353
- angleY -15.652
+SCR_AIGroup : "{4F7F7E8B05ADE07C}Prefabs/Groups/BLUFOR/1980s/Vehicles/Group_US80s_Vehicles_Pilots_p.et" {
+ coords 1292.724 38.083 2884.896
 }
 PS_ManualMarker : "{E256B56F799AEB41}PrefabsEditable/Markers/BLUFORSpawnMarker.et" {
  coords 1367.523 36.565 2381.088
  angleY 0
-}
-SCR_ChimeraCharacter Character_US_HeliPilot_P_619CF96669D9CA8F : "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et" {
- coords 1292.209 38 2889.218
 }
