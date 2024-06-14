@@ -1,15 +1,3 @@
-SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
- components {
-  NavmeshWorldComponent "{5584F30E67F617AD}" {
-   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{619CBBAC36DC8050}" {
-     NavmeshFile "{D8EF7131FB31AF97}worlds/GameMaster/Navmeshes/GM_Arland.nmn"
-    }
-   }
-  }
- }
- coords 1386.745 36.073 2394.702
-}
 SCR_AIGroup : "{456C663A5DD53FF7}Prefabs/Groups/BLUFOR/1980s/BLUFOR_Airport_Guards.et" {
  coords 1385.911 36.093 2396.118
 }

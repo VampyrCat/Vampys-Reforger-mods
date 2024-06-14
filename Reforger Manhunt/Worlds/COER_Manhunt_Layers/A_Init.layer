@@ -1,3 +1,28 @@
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{619CBBAC36DC8050}" {
+     NavmeshFile "{D8EF7131FB31AF97}worlds/GameMaster/Navmeshes/GM_Arland.nmn"
+    }
+   }
+  }
+ }
+ coords 1386.745 36.073 2394.702
+}
 PS_GameModeCoop Lobby_CRF_Mode1 : "{51B31F162162217F}Prefabs/MP/Modes/Lobby/Lobby_CRF_Mode.et" {
+ components {
+  CRF_SafestartGameModeComponent "{610F4DC3E3FE2FC1}" {
+   Enabled 0
+  }
+ }
  coords 2034.532 32.961 2022.23
+ m_bRemoveRedundantUnits 1
+ m_aFactionRespawnCount {
+  PS_FactionRespawnCount "{619CE497575ED84C}" {
+   m_sFactionKey "US"
+   m_iCount 30
+   m_iTime 2
+  }
+ }
 }
