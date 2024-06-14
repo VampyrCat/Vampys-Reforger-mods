@@ -1,0 +1,168 @@
+GenericEntity : "{010D5FBC85347C38}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_US_01_M2HB.et" {
+ coords 2520.164 147.365 2254.689
+ angleX -7.408
+ angleY 132.496
+ {
+  Turret Tripod_M3_M2HB_619CF962CF2B22D5 {
+   ID "58FEB9990956355A"
+  }
+ }
+}
+GenericEntity : "{0AF1C4C9C7EF05F2}Prefabs/Compositions/Slotted/SlotFlatSmall/FuelStorage_S_US_01.et" {
+ coords 1401.665 35.673 2366.938
+ angleY -98.956
+}
+$grp GenericEntity : "{0CEFD2DFBCBB8C41}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_04.et" {
+ {
+  coords 2500.245 147.619 2273.779
+  angleY -97.173
+ }
+ {
+  coords 2506.376 146.948 2305.546
+  angleY -73.021
+ }
+}
+$grp GenericEntity : "{0DF2E6D201DD7B09}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Corner_Left_US_02.et" {
+ {
+  coords 1422.391 37.116 2305.537
+  angleY -137.112
+ }
+ {
+  coords 1429.003 37.264 2312.619
+  angleY 130.054
+ }
+}
+GenericEntity : "{26FA6D68CE614540}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_US_02_M60.et" {
+ coords 1451.146 36.267 2290.064
+ angleY 101.387
+ {
+  Turret Tripod_M122_MG_M60_619CF9634FA25C20 {
+   ID "59B6900AB04C3A46"
+  }
+ }
+}
+GenericEntity : "{2D60BA8C416641F9}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_bunker_plastic.et" {
+ coords 1424.618 37.182 2310.382
+ angleY 133.513
+}
+$grp GenericEntity : "{31DBF7E7C9D70576}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_03.et" {
+ {
+  coords 2500.342 147.444 2265.896
+  angleY -81.7
+ }
+ {
+  coords 2514.946 147.452 2301.592
+  angleY 98.611
+ }
+}
+StaticModelEntity : "{34F58F49290CBB7B}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barrack_Cluttered_US_01.et" {
+ coords 2510.421 147.611 2277.244
+ angleY -175.234
+}
+$grp GenericEntity : "{7F118C6EA2AF1C99}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_long_high_plastic.et" {
+ {
+  coords 2516.581 147.311 2253.018
+  angleY -29.63
+ }
+ {
+  coords 2513.656 147.138 2251.766
+  angleY -15.599
+ }
+ {
+  coords 2520.734 147.14 2258.624
+  angleY -83.875
+ }
+}
+$grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_base.et" {
+ {
+  coords 1424.425 36.215 2414.595
+  angleY 93.645
+  scale 1.247
+ }
+ {
+  coords 1376.243 37.427 2449.859
+  angleY -31.319
+  scale 1.13
+ }
+ {
+  coords 1381.201 36.244 2331.134
+ }
+ {
+  coords 1375.488 36.304 2331.148
+  scale 1.24
+ }
+ {
+  coords 1371.94 36.389 2331.165
+  scale 1.24
+ }
+ {
+  coords 1344.899 36.631 2342.548
+  angleY 54.293
+  scale 1.24
+ }
+ {
+  coords 1362.798 36.614 2331.063
+  angleY -1.076
+  scale 1.24
+ }
+ {
+  coords 1423.025 35.732 2357.752
+  angleY 91.202
+  scale 1.24
+ }
+}
+GenericEntity : "{B725D7E80F3331D7}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Medical_US_01.et" {
+ coords 2537.994 143.619 2264.851
+ angleY -93.746
+}
+$grp GenericEntity : "{B8138FFE79F61D33}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_01.et" {
+ {
+  coords 2508.234 147.558 2252.468
+  angleY 169.803
+ }
+ {
+  coords 2517.624 147.395 2276.45
+  angleY 85.617
+ }
+ {
+  coords 2497.798 148.055 2256.518
+  angleY -74.699
+ }
+ {
+  coords 2497.209 146.601 2288.749
+  angleY -39.55
+ }
+ {
+  coords 2503.4 146.933 2297.709
+  angleY -63.994
+ }
+}
+GenericEntity : "{BC54A982515C5453}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_SandbagCover_US_05.et" {
+ coords 1450.828 36.237 2288.785
+ angleY 99.88
+}
+$grp GenericEntity : "{D447BB1EC532921D}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_US_02.et" {
+ {
+  coords 1449.12 36.213 2305.008
+ }
+ {
+  coords 2518.92 147.326 2265.866
+  angleY 78.873
+ }
+ {
+  coords 2499.177 147.656 2252.011
+  angleY 178.738
+ }
+ {
+  coords 2514.062 147.545 2306.14
+  angleY 6.576
+ }
+ {
+  coords 2520.76 145.001 2291.145
+  angleY 99.029
+ }
+}
+GenericEntity : "{F09296B9255F6704}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_CommandPost_US_01.et" {
+ coords 1401.429 35.947 2384.059
+ angleY -103.839
+}

@@ -1,0 +1,14 @@
+SCR_AIGroup : "{456C663A5DD53FF7}Prefabs/Groups/BLUFOR/1980s/BLUFOR_Airport_Guards.et" {
+ coords 1385.911 36.093 2396.118
+}
+Vehicle UH1H_619CF967A383B4F3 : "{70BAEEFC2D3FEE64}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ coords 1296.7 37.86 2871.353
+ angleY -15.652
+}
+PS_ManualMarker : "{E256B56F799AEB41}PrefabsEditable/Markers/BLUFORSpawnMarker.et" {
+ coords 1367.523 36.565 2381.088
+ angleY 0
+}
+SCR_ChimeraCharacter Character_US_HeliPilot_P_619CF96669D9CA8F : "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et" {
+ coords 1292.209 38 2889.218
+}
