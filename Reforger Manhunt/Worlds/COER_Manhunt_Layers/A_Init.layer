@@ -15,8 +15,8 @@ PS_GameModeCoop Lobby_CRF_Mode1 : "{51B31F162162217F}Prefabs/MP/Modes/Lobby/Lobb
   CRF_SafestartGameModeComponent "{610F4DC3E3FE2FC1}" {
    Enabled 0
   }
-  SCR_NightModeGameModeComponent "{5D50E84688D5A408}" {
-   m_bAllowGlobalNightMode 1
+  SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
+   m_bPermitUnconsciousVON 1
   }
   SCR_TimeAndWeatherHandlerComponent "{60E1584A0997B92C}" {
    m_bRandomStartingDaytime 1
@@ -32,7 +32,11 @@ PS_GameModeCoop Lobby_CRF_Mode1 : "{51B31F162162217F}Prefabs/MP/Modes/Lobby/Lobb
   PS_FactionRespawnCount "{619CE497575ED84C}" {
    m_sFactionKey "US"
    m_iCount 30
-   m_iTime 2
+   m_iTime 30000
   }
  }
+}
+EnvironmentProbeEntity : "{B6B6A21399C5571B}Prefabs/World/DefaultWorld/EnvProbe_Default.et" {
+ coords 1438.504 79.515 2355.038
+ Visible 0
 }

@@ -1,0 +1,42 @@
+$grp SCR_DefendWaypoint : "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et" {
+ MG_BEACH_DEFENSE_ONE {
+  coords 1173.481 24.611 3447.921
+ }
+ HILL_DEFENSE_ONE {
+  coords 1199.591 38.563 3430.891
+ }
+ HILL_DEFENSE_TWO {
+  coords 560.753 29.154 2741.218
+ }
+ HQ_DEFENSE_ONE {
+  coords 1371.619 43.981 2350.493
+  CompletionRadius 7.9
+ }
+}
+$grp SCR_AIGroup : "{3BF36BDEEB33AEC9}Prefabs/Groups/BLUFOR/Group_US_SentryTeam.et" {
+ {
+  coords 1178.303 27.321 3455.18
+  angleY -87.427
+  m_aStaticWaypoints {
+   "MG_BEACH_DEFENSE_ONE"
+  }
+ }
+ {
+  coords 1198.432 47.72 3433.885
+  m_aStaticWaypoints {
+   "HILL_DEFENSE_ONE"
+  }
+ }
+ {
+  coords 1381.64 36.915 2358.476
+  m_aStaticWaypoints {
+   "HQ_DEFENSE_ONE"
+  }
+ }
+}
+SCR_AIGroup : "{84E5BBAB25EA23E5}Prefabs/Groups/BLUFOR/Group_US_FireTeam.et" {
+ coords 555.935 35.9 2742.695
+ m_aStaticWaypoints {
+  "HILL_DEFENSE_TWO"
+ }
+}

@@ -21,6 +21,15 @@ $grp GenericEntity : "{0CEFD2DFBCBB8C41}PrefabsEditable/Auto/Compositions/Slotte
   coords 2506.376 146.948 2305.546
   angleY -73.021
  }
+ {
+  coords 1197.695 39.34 3426.032
+  angleX -3.278
+  angleY 179.089
+ }
+ {
+  coords 564.479 29.142 2738.428
+  angleY 103.152
+ }
 }
 $grp GenericEntity : "{0DF2E6D201DD7B09}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Corner_Left_US_02.et" {
  {
@@ -32,12 +41,23 @@ $grp GenericEntity : "{0DF2E6D201DD7B09}PrefabsEditable/Auto/Compositions/Misc/S
   angleY 130.054
  }
 }
-GenericEntity : "{26FA6D68CE614540}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_US_02_M60.et" {
- coords 1451.146 36.267 2290.064
- angleY 101.387
+$grp GenericEntity : "{26FA6D68CE614540}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_US_02_M60.et" {
  {
-  Turret Tripod_M122_MG_M60_619CF9634FA25C20 {
-   ID "59B6900AB04C3A46"
+  coords 1451.146 36.267 2290.064
+  angleY 101.387
+  {
+   Turret Tripod_M122_MG_M60_619CF9634FA25C20 {
+    ID "59B6900AB04C3A46"
+   }
+  }
+ }
+ {
+  coords 1177.187 26.302 3455.927
+  angleY -85.057
+  {
+   Turret Tripod_M122_MG_M60_619ED99879CFFF3D {
+    ID "59B6900AB04C3A46"
+   }
   }
  }
 }
@@ -54,6 +74,17 @@ $grp GenericEntity : "{31DBF7E7C9D70576}PrefabsEditable/Auto/Compositions/Slotte
   coords 2514.946 147.452 2301.592
   angleY 98.611
  }
+ {
+  coords 1201.754 39.137 3429.485
+  angleX -2.321
+  angleY 86.825
+  angleZ -9.729
+ }
+ {
+  coords 567.185 27.674 2747.143
+  angleY 76.986
+  angleZ -11.303
+ }
 }
 StaticModelEntity : "{34F58F49290CBB7B}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Barrack_Cluttered_US_01.et" {
  coords 2510.421 147.611 2277.244
@@ -62,6 +93,37 @@ StaticModelEntity : "{34F58F49290CBB7B}PrefabsEditable/Auto/Compositions/Misc/Su
 GenericEntity : "{3A64925BC81FC2C0}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_short_high_plastic.et" {
  coords 3180.987 10.169 2827.62
  angleY 44.056
+}
+$grp GenericEntity : "{450AB743652B056B}PrefabsEditable/Auto/Props/Military/Compositions/US/E_FuelService_US.et" {
+ {
+  coords 1488.163 1.18 1758.075
+  angleY -60.55
+ }
+ {
+  coords 1485.981 1.177 1753.972
+  angleY 119.311
+ }
+}
+$grp GenericEntity : "{4DEEA497CDECF31B}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_US_02_M2HB.et" {
+ {
+  coords 548.634 28.046 2733.433
+  angleY -127.279
+  {
+   Turret Tripod_M3_M2HB_619ED99BBBD0871B {
+    ID "59D87A7C7F6769EB"
+   }
+  }
+ }
+ {
+  coords 563.401 27.184 2749.291
+  angleX -9.042
+  angleY -17.325
+  {
+   Turret Tripod_M3_M2HB_619ED99BD4B870DB {
+    ID "59D87A7C7F6769EB"
+   }
+  }
+ }
 }
 $grp GenericEntity : "{7F118C6EA2AF1C99}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_long_high_plastic.et" {
  {
@@ -114,6 +176,10 @@ $grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_
   angleY 91.202
   scale 1.24
  }
+}
+StaticModelEntity : "{8F8CEA8AE95A130D}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/DestructionEntities/E_Sandbag_01_bunker_plastic_camonet_CompositionDestruction.et" {
+ coords 1160.074 18.135 3444.498
+ angleY -76.83
 }
 GenericEntity : "{95E4917C4E27A44D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_plastic.et" {
  coords 3178.76 10.64 2829.814
@@ -200,6 +266,17 @@ $grp GenericEntity : "{B8138FFE79F61D33}PrefabsEditable/Auto/Compositions/Slotte
   coords 2503.4 146.933 2297.709
   angleY -63.994
  }
+ {
+  coords 1194.655 37.999 3432.955
+  angleY -69.614
+  angleZ 9.139
+ }
+ {
+  coords 557.848 28.121 2743.997
+  angleX -8.735
+  angleY -36.566
+  angleZ 1.577
+ }
 }
 GenericEntity : "{BC54A982515C5453}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_SandbagCover_US_05.et" {
  coords 1450.828 36.237 2288.785
@@ -235,6 +312,31 @@ $grp GenericEntity : "{D447BB1EC532921D}PrefabsEditable/Auto/Compositions/Slotte
   coords 2520.76 145.001 2291.145
   angleY 99.029
  }
+ {
+  coords 1198.879 36.104 3440.683
+  angleX -5.667
+  angleY -47.625
+  angleZ 7.335
+ }
+ {
+  coords 1203.767 36.909 3437.409
+  angleY 69.851
+  angleZ -8.309
+ }
+ {
+  coords 551.708 27.779 2739.14
+  angleX -3.611
+  angleY -61.872
+  angleZ 1.69
+ }
+ {
+  coords 556.619 29.032 2733.872
+  angleY 151.56
+  angleZ 5.765
+ }
+}
+StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+ coords 976.733 31.777 1408.415
 }
 GenericEntity : "{F09296B9255F6704}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_CommandPost_US_01.et" {
  coords 1401.429 35.947 2384.059

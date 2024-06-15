@@ -13,14 +13,101 @@ SCR_FactionControlTriggerEntity US_KILL_OBJECTIVE {
  m_sOwnerFactionKey "US"
  m_fFriendlyRatioLimit 1
 }
-$grp GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et" {
- IntelligenceFolder_E_01_619D148C442B4C63 {
-  coords 3179.813 11.548 2839.142
+$grp GenericEntity : "{131B8FB9240CCEB1}PrefabsEditable/Auto/Props/Furniture/TableSmall_01/E_TableSmall_01_LightWood.et" {
+ {
+  coords 3109.845 28.117 2734.787
+  angleY -50.463
  }
- IntelligenceFolder_E_01_619D148CE0031981 {
-  coords 1404.222 21.688 1813.899
+ {
+  coords 1460.733 54.091 1161.686
+  angleY -50.463
  }
 }
-GenericEntity : "{A8122C6398FC8458}PrefabsEditable/Auto/Props/Furniture/TableSmall_01/E_TableSmall_01_DarkWood.et" {
- coords 1404.278 20.988 1813.887
+$grp GenericEntity : "{5CF603986376EAA9}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01_base.et" {
+ IntelligenceFolder_E_01_base_619EAC16CD2F9D98 {
+  coords 1964.815 52.929 3031.946
+ }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F3 {
+  coords 3109.878 28.817 2734.896
+ }
+ IntelligenceFolder_E_01_base_619EAC16E5622FF5 {
+  coords 2298.359 94.368 1234.315
+ }
+ IntelligenceFolder_E_01_base_619EAC16E5622FF2 {
+  coords 1601.499 41.121 2367.949
+ }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F2 {
+  coords 1435.379 35.63 3183.12
+ }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F4 {
+  coords 3566.121 72.486 2646.444
+ }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F5 {
+  coords 3067.139 85.364 1582.579
+ }
+ IntelligenceFolder_E_01_base_619EAC16E5622FF3 {
+  coords 2748.607 82.867 1645.977
+ }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F6 {
+  coords 1462.644 55.442 1162.166
+  angleY -168.063
+ }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F7 {
+  coords 978.059 51.513 1409.883
+ }
+ IntelligenceFolder_E_01_base_619EAC16E5622FF4 {
+  coords 708.388 3.709 2250.102
+ }
+ IntelligenceFolder_E_01_base_619EAC16E5622FF6 {
+  coords 2376.053 4.132 3240.813
+ }
+ IntelligenceFolder_E_01_base_619EAC16E5622FF7 {
+  coords 3232.043 3.7 2905.84
+ }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F8 {
+  coords 1404.328 21.688 1813.855
+ }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F9 {
+  coords 998.373 13.755 1979.704
+ }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F10 {
+  coords 2624.365 102.674 2612.693
+ }
+ IntelligenceFolder_E_01_base_619EAC16E5622FF8 {
+  coords 2299.702 99.926 2324.639
+  angleX -12.284
+  angleZ -7.181
+ }
+ IntelligenceFolder_E_01_base_619ED99964045D52 {
+  coords 1922.67 40.996 2641.405
+ }
+ IntelligenceFolder_E_01_base_619EAC16E5622FF9 {
+  coords 1872.402 50.771 3409.718
+ }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F11 {
+  coords 3363.671 2.348 2006.973
+  angleX -1.405
+  angleY -0.352
+  angleZ 11.915
+ }
+}
+$grp GenericEntity : "{A8122C6398FC8458}PrefabsEditable/Auto/Props/Furniture/TableSmall_01/E_TableSmall_01_DarkWood.et" {
+ {
+  coords 1404.278 20.988 1813.887
+ }
+ {
+  coords 1601.507 40.421 2367.929
+ }
+ {
+  coords 1435.375 34.93 3183.094
+ }
+ {
+  coords 3566.128 71.786 2646.43
+ }
+ {
+  coords 3067.169 84.664 1582.604
+ }
+ {
+  coords 978.045 50.813 1409.899
+ }
 }
