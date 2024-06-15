@@ -1,4 +1,4 @@
-SCR_FactionControlTriggerEntity USSR_Leave_Objective {
+SCR_FactionControlTriggerEntity US_KILL_OBJECTIVE {
  coords 2230.542 148.27 2232.667
  TriggerShapeType "Oriented Bounding Box"
  BoxMins -2200 -200 -2000
@@ -10,7 +10,7 @@ SCR_FactionControlTriggerEntity USSR_Leave_Objective {
  "		int usIndex = GetGame().GetFactionManager().GetFactionIndex(faction);"\
  "		gameMode.EndGameMode(SCR_GameModeEndData.CreateSimple(EGameOverTypes.EDITOR_FACTION_VICTORY, -1, usIndex));"\
  "	"
- m_sOwnerFactionKey "USSR"
+ m_sOwnerFactionKey "US"
  m_fFriendlyRatioLimit 1
 }
 $grp GenericEntity : "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et" {
