@@ -1,3 +1,10 @@
+SCR_AIGroup {
+ coords 1386.603 36.268 2378.258
+ angleY 153.508
+ m_aUnitPrefabSlots {
+  "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL1_P.et" "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et" "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{87E0099B6ACAB605}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL2_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et"
+ }
+}
 $grp SCR_VehicleSpawn {
  {
   coords 1300.201 37.809 2869.307
@@ -47,13 +54,6 @@ SCR_AIGroup : "{1ECF3600DD4B7B4D}Prefabs/Groups/BLUFOR/1980s/Specials/Group_Rall
   "{E8FAD44D48E58061}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Guard_Boatman_P.et" "{34C4428FD54B071B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Guard_Boatman_carbine_P.et"
  }
  m_sCustomNameSet "Boat patrol"
-}
-SCR_AIGroup : "{456C663A5DD53FF7}Prefabs/Groups/BLUFOR/1980s/BLUFOR_Airport_Guards.et" {
- coords 1385.911 36.093 2374.675
- angleY 153.508
- m_aUnitPrefabSlots {
-  "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL1_P.et" "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et" "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{87E0099B6ACAB605}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL2_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et"
- }
 }
 SCR_AIGroup : "{4F7F7E8B05ADE07C}Prefabs/Groups/BLUFOR/1980s/Vehicles/Group_US80s_Vehicles_Pilots_p.et" {
  coords 1292.724 38.083 2884.896

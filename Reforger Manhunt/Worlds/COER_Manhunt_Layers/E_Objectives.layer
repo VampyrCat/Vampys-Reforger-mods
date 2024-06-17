@@ -24,9 +24,6 @@ $grp GenericEntity : "{131B8FB9240CCEB1}PrefabsEditable/Auto/Props/Furniture/Tab
  }
 }
 $grp GenericEntity : "{5CF603986376EAA9}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01_base.et" {
- IntelligenceFolder_E_01_base_619EAC16CD2F9D98 {
-  coords 1964.815 52.929 3031.946
- }
  IntelligenceFolder_E_01_base_619EAC16D69B72F3 {
   coords 3109.878 28.817 2734.896
  }
@@ -90,6 +87,9 @@ $grp GenericEntity : "{5CF603986376EAA9}Prefabs/Items/Misc/IntelligenceFolder_E_
   angleY -0.352
   angleZ 11.915
  }
+ IntelligenceFolder_E_01_base_619EAC16D69B72F12 {
+  coords 633.007 9.572 3493.904
+ }
 }
 $grp GenericEntity : "{A8122C6398FC8458}PrefabsEditable/Auto/Props/Furniture/TableSmall_01/E_TableSmall_01_DarkWood.et" {
  {
@@ -109,5 +109,69 @@ $grp GenericEntity : "{A8122C6398FC8458}PrefabsEditable/Auto/Props/Furniture/Tab
  }
  {
   coords 978.045 50.813 1409.899
+ }
+}
+GenericEntity Intelligence_Mission_Spawner : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ components {
+  SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+   m_SpawnChildren RANDOM_ONE
+  }
+ }
+ coords 2691.613 77.406 1671.596
+ {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+   Layer1 {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_iRepeatedSpawnNumber 1
+     }
+    }
+    coords 0 0 0
+    {
+     GenericEntity TaskDeliverIntel1 : "{31180485D450A1A1}Prefabs/ScenarioFramework/Compositions/LayerTasks/TaskDeliverIntel.et" {
+      components {
+       SCR_ScenarioFrameworkLayerTaskDeliver "{5A6513F48903E7DA}" {
+        m_sFactionKey "USSR"
+       }
+      }
+      coords -726.857 -24.509 1360.452
+      {
+       GenericEntity SlotDelivery1 {
+        ID "5E74C909218B71FF"
+       }
+       GenericEntity SlotPick1 {
+        ID "5E74C909218B7182"
+        coords 0.016 0.039 -0.065
+        angleY -22.479
+       }
+      }
+     }
+    }
+   }
+   Layer2 {
+    coords 0 0 0
+   }
+   Layer3 {
+    coords 0 0 0
+   }
+   Layer4 {
+    coords 0 0 0
+   }
+   Layer5 {
+    coords 0 0 0
+   }
+   Layer6 {
+    coords 0 0 0
+   }
+   Layer7 {
+    coords 0 0 0
+   }
+   Layer8 {
+    coords 0 0 0
+   }
+   Layer9 {
+    coords 0 0 0
+   }
+  }
  }
 }
