@@ -104,6 +104,10 @@ $grp GenericEntity : "{450AB743652B056B}PrefabsEditable/Auto/Props/Military/Comp
   angleY 119.311
  }
 }
+GenericEntity : "{48BA985934F2D12C}PrefabsEditable/Auto/Props/Military/Compositions/FIA/E_FuelService_FIA.et" {
+ coords 1625.622 46.547 1108.871
+ angleY -132.893
+}
 $grp GenericEntity : "{4DEEA497CDECF31B}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_US_02_M2HB.et" {
  {
   coords 548.634 28.046 2733.433
@@ -124,6 +128,11 @@ $grp GenericEntity : "{4DEEA497CDECF31B}PrefabsEditable/Auto/Compositions/Misc/S
    }
   }
  }
+}
+GenericEntity : "{6D2A35DA74224780}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_US_01.et" {
+ coords 2535.118 140.057 2236.961
+ angleY 47.703
+ angleZ 15.141
 }
 $grp GenericEntity : "{7F118C6EA2AF1C99}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_long_high_plastic.et" {
  {
@@ -180,6 +189,10 @@ $grp GenericEntity : "{8777F96EBE817623}Prefabs/Props/Military/Sandbags/Sandbag_
 StaticModelEntity : "{8F8CEA8AE95A130D}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/DestructionEntities/E_Sandbag_01_bunker_plastic_camonet_CompositionDestruction.et" {
  coords 1160.074 18.135 3444.498
  angleY -76.83
+}
+GenericEntity : "{947BFB8F2FCCAC6F}PrefabsEditable/Auto/Props/Military/Compositions/US/E_FuelService_US_Large.et" {
+ coords 2190.334 53.02 2859.005
+ angleY 160.396
 }
 GenericEntity : "{95E4917C4E27A44D}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_wall_plastic.et" {
  coords 3178.76 10.64 2829.814
@@ -240,6 +253,11 @@ $grp GameEntity : "{95EFB2EE402F81DB}PrefabsEditable/Auto/Props/Military/Generat
   coords 1447.026 36.317 2266.866
   angleY 32.621
  }
+}
+GenericEntity : "{B6CF358D07FFC99F}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_FuelStorage_S_FIA_01.et" {
+ coords 2767.181 76.484 1626.269
+ angleY 28.344
+ angleZ 6.025
 }
 GenericEntity : "{B725D7E80F3331D7}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Tent_Medical_US_01.et" {
  coords 2537.994 143.619 2264.851
