@@ -1,153 +1,214 @@
 GenericEntity Vehicle_Random_Spawns : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
  components {
   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
-   m_SpawnChildren RANDOM_MULTIPLE
-   m_iRandomPercent 80
+   m_sFactionKey "CIV"
   }
  }
  coords 2797.731 79.372 2233.27
  {
-  Vehicle S1203_transport_red1 : "{11A28C90DB40318D}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_red.et" {
-   coords 355.023 -67.909 554.286
-   angleY -132.842
-  }
-  Vehicle UAZ469_uncovered_CIV_base1 : "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et" {
-   coords 361.929 -66.726 503.802
-   angleY 120.322
-  }
-  Vehicle UAZ469_uncovered_CIV_brown1 : "{270F23D61238ABC7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_brown.et" {
-   coords -583.201 -26.104 626.139
-   angleY -67.129
-  }
-  $grp Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
-   Ural1 {
-    coords -1616.776 -78.257 1056.031
-    angleY -88.743
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+   Farm_Vics {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_sFactionKey "CIV"
+      m_iRandomPercent 20
+      m_eActivationType ON_INIT
+     }
+    }
+    coords 327.452 -35.851 195.493
+    {
+     Vehicle UAZ469_uncovered_CIV_brown1 : "{270F23D61238ABC7}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_brown.et" {
+      coords -910.653 9.747 430.646
+      angleY -67.129
+     }
+     Vehicle S1203_transport_yellow1 : "{4C79EB5FADB89B7A}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_yellow.et" {
+      coords -10.32 -0.214 13.528
+      angleY -17.969
+     }
+     Vehicle Ural4320_transport_covered_CIV_orange1 : "{66241E0CEDFCEDFF}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_orange.et" {
+      coords -1171.069 7.575 592.887
+      angleY -163.9
+     }
+     Vehicle UAZ469_covered_CIV_teal1 : "{870EB660433857D3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_teal.et" {
+      coords -1375.731 -33.248 -1513.825
+      angleY -162.502
+     }
+     Vehicle S1203_transport_brown3 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
+      coords -1016.748 18.863 -1380.585
+      angleY 29.045
+     }
+     $grp Vehicle : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
+      S105_green1 {
+       coords -831.691 46.648 -1179.281
+       angleY 29.558
+      }
+      S105_green2 {
+       coords -792.898 22.48 -705.469
+       angleY 125.754
+      }
+     }
+    }
    }
-   Ural2 {
-    coords -1617.267 -78.247 1060.985
-    angleY -90.639
+   Rand_Mili_Vics {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_sFactionKey "CIV"
+      m_iRandomPercent 20
+      m_eActivationType ON_INIT
+     }
+    }
+    coords -1397.861 -68.372 -386.021
+    {
+     $grp Vehicle : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+      Ural1 {
+       coords -218.915 -9.885 1442.052
+       angleY -88.743
+      }
+      Ural2 {
+       coords -219.406 -9.875 1447.006
+       angleY -90.639
+      }
+     }
+     Vehicle M151A2_transport1 : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
+      coords 1700.432 34.221 558.082
+      angleY 67.335
+     }
+     Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+      coords 2.294 0.879 5.996
+      angleY -159.912
+     }
+     Vehicle UAZ469_uncovered_CIV_teal1 : "{D4855501D5B12AF2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_teal.et" {
+      coords -246.392 -8.928 1507.099
+      angleY -29.809
+     }
+    }
    }
-  }
-  Vehicle M151A2_transport1 : "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et" {
-   coords 302.571 -34.151 172.061
-   angleY 67.335
-  }
-  Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
-   coords -1395.567 -67.493 -380.025
-   angleY -159.912
-  }
-  Vehicle S1203_transport_yellow1 : "{4C79EB5FADB89B7A}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_yellow.et" {
-   coords 317.132 -36.065 209.021
-   angleY -17.969
-  }
-  Vehicle S105_rally1 : "{5555DCAFADB8CE2A}Prefabs/Vehicles/Wheeled/S105/S105_rally.et" {
-   coords -44.063 -1.935 -594.494
-   angleY -132.845
-  }
-  Vehicle AModestBoat_Assault1 : "{5776A72CF1A42B24}Prefabs/Vehicles/Core/AModestBoat_Assault.et" {
-   coords 700.851 -79.372 -455.028
-   angleY 44.602
-  }
-  Vehicle Ural4320_transport_covered_CIV_orange1 : "{66241E0CEDFCEDFF}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_orange.et" {
-   coords -843.617 -28.276 788.38
-   angleY -163.9
-  }
-  Vehicle UAZ469_covered_CIV_base1 : "{7524FB186D534ACA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_base.et" {
-   coords 326.452 -67.855 579.754
-   angleY 45.425
-  }
-  $grp Vehicle : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
-   S105_darkred2 {
-    coords -52.66 -1.934 -601.986
-    angleY -132.926
+   Beauregard_Vics {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_sFactionKey "CIV"
+      m_iRandomPercent 50
+      m_eActivationType ON_INIT
+     }
+    }
+    coords 340.594 -65.579 490.02
+    {
+     Vehicle S1203_transport_red1 : "{11A28C90DB40318D}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_red.et" {
+      coords 14.428 -2.33 64.266
+      angleY -132.842
+     }
+     Vehicle UAZ469_uncovered_CIV_base1 : "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et" {
+      coords 21.334 -1.147 13.781
+      angleY 120.322
+     }
+     Vehicle UAZ469_covered_CIV_base1 : "{7524FB186D534ACA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_base.et" {
+      coords -14.142 -2.276 89.734
+      angleY 45.425
+     }
+     Vehicle S105_darkred1 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+      coords 38.106 -1.587 37.99
+      angleY -67.307
+     }
+     Vehicle S105_darkbrown1 : "{A1CD41DFE0C93CAD}Prefabs/Vehicles/Wheeled/S105/S105_darkbrown.et" {
+      coords 18.208 -2.222 68.982
+      angleY -132.02
+     }
+     Vehicle S1203_transport_brown1 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
+      coords -43.062 2.187 -13.038
+      angleY -51.934
+     }
+     Vehicle S105_base1 : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
+      coords 9.611 -2.353 60.009
+      angleY -133.317
+     }
+     Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
+      coords 19.77 -0.643 -3.032
+      angleY -57.219
+     }
+    }
    }
-   S105_darkred1 {
-    coords 378.701 -67.166 528.01
-    angleY -67.307
+   Boats {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_sFactionKey "CIV"
+      m_iRandomPercent 50
+      m_eActivationType ON_INIT
+     }
+    }
+    coords -905.576 -76.524 -695.172
+    {
+     Vehicle AModestBoat_Assault1 : "{5776A72CF1A42B24}Prefabs/Vehicles/Core/AModestBoat_Assault.et" {
+      coords 1606.427 -2.848 240.144
+      angleY 44.602
+     }
+     $grp Vehicle : "{A950BBE061497255}Prefabs/Vehicles/Core/AModestBoat_Base.et" {
+      AModestBoat_Base1 {
+       coords -231.237 -2.848 -749.598
+       angleY 4.786
+      }
+      AModestBoat_Base2 {
+       coords 1730.57 -2.848 1.315
+       angleY 93.165
+      }
+      AModestBoat_Base3 {
+       coords 505.986 -2.848 1770.934
+       angleY 107.499
+      }
+      AModestBoat_Base4 {
+       coords -808.628 -2.848 1773.75
+       angleY 56.771
+      }
+      AModestBoat_Base5 {
+       coords -818.937 -2.848 190.147
+       angleY -40.312
+      }
+      AModestBoat_Base6 {
+       coords -23.942 -2.848 12.226
+       angleY -67.729
+      }
+      AModestBoat_Base7 {
+       coords 235.181 -2.914 2032.64
+       angleY 0.849
+      }
+     }
+    }
    }
-  }
-  Vehicle UAZ469_covered_CIV_teal1 : "{870EB660433857D3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_teal.et" {
-   coords -1048.279 -69.099 -1318.332
-   angleY -162.502
-  }
-  Vehicle S105_darkbrown1 : "{A1CD41DFE0C93CAD}Prefabs/Vehicles/Wheeled/S105/S105_darkbrown.et" {
-   coords 358.802 -67.801 559.003
-   angleY -132.02
-  }
-  Vehicle UAZ469_covered_CIV_red1 : "{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_red.et" {
-   coords 39.44 -7.134 -560.176
-   angleY 147.61
-  }
-  $grp Vehicle : "{A950BBE061497255}Prefabs/Vehicles/Core/AModestBoat_Base.et" {
-   AModestBoat_Base1 {
-    coords -1136.813 -79.372 -1444.77
-    angleY 4.786
+   Arleville_Vics {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_sFactionKey "CIV"
+      m_iRandomPercent 50
+      m_eActivationType ON_INIT
+     }
+    }
+    coords -64.581 -1.903 -608.934
+    {
+     Vehicle S105_rally1 : "{5555DCAFADB8CE2A}Prefabs/Vehicles/Wheeled/S105/S105_rally.et" {
+      coords 20.518 -0.032 14.44
+      angleY -132.845
+     }
+     Vehicle S105_darkred2 : "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et" {
+      coords 11.921 -0.031 6.948
+      angleY -132.926
+     }
+     Vehicle UAZ469_covered_CIV_red1 : "{A4D16A62B432451A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_red.et" {
+      coords 104.021 -5.231 48.758
+      angleY 147.61
+     }
+     Vehicle S1203_transport_brown2 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
+      coords 62.329 -3.587 12.279
+      angleY -114.608
+     }
+     Vehicle UAZ469_covered_CIV_PTS1 : "{BDFB2377B6B4ABBB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_PTS.et" {
+      coords 66.668 -3.819 23.83
+      angleY 156.471
+     }
+    }
    }
-   AModestBoat_Base2 {
-    coords 824.994 -79.372 -693.857
-    angleY 93.165
-   }
-   AModestBoat_Base3 {
-    coords -399.59 -79.372 1075.762
-    angleY 107.499
-   }
-   AModestBoat_Base4 {
-    coords -1714.204 -79.372 1078.578
-    angleY 56.771
-   }
-   AModestBoat_Base5 {
-    coords -1724.513 -79.372 -505.025
-    angleY -40.312
-   }
-   AModestBoat_Base6 {
-    coords -929.518 -79.372 -682.946
-    angleY -67.729
-   }
-   AModestBoat_Base7 {
-    coords -670.395 -79.438 1337.468
-    angleY 0.849
-   }
-  }
-  $grp Vehicle : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
-   S1203_transport_brown2 {
-    coords -2.252 -5.49 -596.655
-    angleY -114.608
-   }
-   S1203_transport_brown1 {
-    coords 297.532 -63.392 476.982
-    angleY -51.934
-   }
-   S1203_transport_brown3 {
-    coords -689.296 -16.988 -1185.092
-    angleY 29.045
-   }
-  }
-  $grp Vehicle : "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et" {
-   S105_green1 {
-    coords -504.239 10.797 -983.788
-    angleY 29.558
-   }
-   S105_green2 {
-    coords -465.446 -13.371 -509.976
-    angleY 125.754
-   }
-  }
-  Vehicle UAZ469_covered_CIV_PTS1 : "{BDFB2377B6B4ABBB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_PTS.et" {
-   coords 2.087 -5.722 -585.104
-   angleY 156.471
-  }
-  Vehicle UAZ469_uncovered_CIV_teal1 : "{D4855501D5B12AF2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_teal.et" {
-   coords -1644.253 -77.3 1121.078
-   angleY -29.809
-  }
-  Vehicle S105_base1 : "{DA79E34823120087}Prefabs/Vehicles/Wheeled/S105/S105_base.et" {
-   coords 350.205 -67.932 550.029
-   angleY -133.317
-  }
-  Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
-   coords 360.364 -66.222 486.988
-   angleY -57.219
   }
  }
 }

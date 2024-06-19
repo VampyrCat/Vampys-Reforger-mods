@@ -1,59 +1,67 @@
-SCR_AIGroup {
- coords 1386.603 36.268 2378.258
- angleY 153.508
- m_aUnitPrefabSlots {
-  "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL1_P.et" "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et" "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{87E0099B6ACAB605}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL2_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et"
- }
-}
 $grp SCR_VehicleSpawn {
  {
   coords 1300.201 37.809 2869.307
   m_rnPrefab "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
-  respawnDelay 3
+  respawnDelay 300
  }
  {
   coords 1362.856 36.426 2375.296
   m_rnPrefab "{47D94E1193A88497}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport.et"
+  respawnDelay 300
  }
  {
   coords 1380.081 36.344 2362.478
   m_rnPrefab "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+  respawnDelay 300
  }
  {
   coords 1374.01 36.375 2372.993
   angleY -20.441
   m_rnPrefab "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et"
+  respawnDelay 300
  }
  {
   coords 1375.663 36.35 2368.372
-  m_rnPrefab "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et"
+  m_rnPrefab "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et"
+  respawnDelay 300
  }
  {
   coords 1477.56 0 1768.818
   angleY 26.823
   m_rnPrefab "{0BB6CCE135878BBF}Prefabs/Vehicles/Naval/RHIB/RHIB_Base_Armed.et"
+  respawnDelay 300
  }
  {
   coords 1464.688 0 1776.951
   angleY 26.823
   m_rnPrefab "{0BB6CCE135878BBF}Prefabs/Vehicles/Naval/RHIB/RHIB_Base_Armed.et"
+  respawnDelay 300
  }
  {
   coords 1281.609 38.549 2886.429
   m_rnPrefab "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+  respawnDelay 300
  }
  {
   coords 1459.796 1.126 1818.532
   m_rnPrefab "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+  respawnDelay 300
  }
 }
 SCR_AIGroup : "{1ECF3600DD4B7B4D}Prefabs/Groups/BLUFOR/1980s/Specials/Group_Rally_Team.et" {
  coords 1452.258 3.147 1793.98
  angleY 127.18
  m_aUnitPrefabSlots {
-  "{E8FAD44D48E58061}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Guard_Boatman_P.et" "{34C4428FD54B071B}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Guard_Boatman_carbine_P.et"
+  "{CB220538F01F0B61}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Boatman_Rifle_P.et" "{9F730FDC54AC8AF3}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Boatman_Carbine_P.et"
  }
  m_sCustomNameSet "Boat patrol"
+}
+SCR_AIGroup : "{456C663A5DD53FF7}Prefabs/Groups/BLUFOR/1980s/BLUFOR_Airport_Guards.et" {
+ coords 1383.712 36.943 2380.185
+ angleY 165.622
+ m_aUnitPrefabSlots {
+  "{DBC177C261C93B9D}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_SL_P.et" "{094747C4F8BE9F9F}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL1_P.et" "{7E44CF4FB58F8FF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_AR_P.et" "{EB2904CE98753A6E}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_P.et" "{C262DC827577226C}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_P.et" "{87E0099B6ACAB605}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_TL2_P.et" "{547BA14003A67C04}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Medic_P.et" "{B452527EA042DFF0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_P.et" "{64AD55FF89C97DF9}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_P.et"
+ }
 }
 SCR_AIGroup : "{4F7F7E8B05ADE07C}Prefabs/Groups/BLUFOR/1980s/Vehicles/Group_US80s_Vehicles_Pilots_p.et" {
  coords 1292.724 38.083 2884.896
