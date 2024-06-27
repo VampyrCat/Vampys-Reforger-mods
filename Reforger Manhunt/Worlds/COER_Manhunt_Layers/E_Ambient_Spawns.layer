@@ -1,19 +1,16 @@
-GenericEntity Slot3 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
- components {
-  SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-   m_sObjectToSpawn "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et"
-  }
- }
- coords 2800.267 73.65 1648.965
- angleY 156.061
+GenericEntity : "{6BDDFE9FA1D4B2F0}Prefabs/Props/Wrecks/UAZ469_wreck.et" {
+ coords 2184.607 62.095 2121.887
+ angleX -7.256
+ angleY 166.42
+}
+GenericEntity : "{7783AE4B44D3CF29}Prefabs/Props/Wrecks/M923A1_wreck.et" {
+ coords 2495.64 94.289 1915.198
+ angleX -0.343
+ angleY -79.737
+ angleZ -18.693
 }
 $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
  Vehicle_Random_Spawns {
-  components {
-   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
-    m_sFactionKey "CIV"
-   }
-  }
   coords 2797.731 79.372 2233.27
   {
    GenericEntity Boats : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
@@ -44,7 +41,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
     coords -24.449 2.323 -58.833
     {
      Vehicle S1203_transport_red1 : "{11A28C90DB40318D}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_red.et" {
-      coords 14.428 -2.33 64.266
+      coords 18.508 -2.237 68.553
       angleY -132.842
      }
      Vehicle UAZ469_uncovered_CIV_base1 : "{26AF1879FBDA37EB}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_base.et" {
@@ -59,10 +56,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
       coords 38.106 -1.587 37.99
       angleY -67.307
      }
-     Vehicle S105_darkbrown1 : "{A1CD41DFE0C93CAD}Prefabs/Vehicles/Wheeled/S105/S105_darkbrown.et" {
-      coords 18.208 -2.222 68.982
-      angleY -132.02
-     }
      Vehicle S1203_transport_brown1 : "{ACED839A6C5BE657}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_brown.et" {
       coords -43.062 2.187 -13.038
       angleY -51.934
@@ -74,64 +67,6 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
      Vehicle Ural4320_transport_covered_CIV_JZD1 : "{FB219B49A448A8EA}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_JZD.et" {
       coords 19.77 -0.643 -3.032
       angleY -57.219
-     }
-    }
-   }
-  }
- }
- Arleville_Area {
-  coords 2752.073 77.309 1614.953
-  {
-   GenericEntity Arleville_Vics : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
-    components {
-     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
-      m_sFactionKey "CIV"
-      m_iRandomPercent 50
-     }
-    }
-    coords -18.923 0.16 9.383
-    {
-     Vehicle AModestBoat_Assault1 : "{5776A72CF1A42B24}Prefabs/Vehicles/Core/AModestBoat_Assault.et" {
-      coords 765.432 -77.469 153.906
-      angleY 44.602
-     }
-     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
-      Red_Skoda {
-       components {
-        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-         m_sObjectToSpawn "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et"
-        }
-       }
-       coords 11.157 -0.024 5.479
-       angleY -132.383
-      }
-      Beige_Skoda {
-       components {
-        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-         m_sObjectToSpawn "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et"
-        }
-       }
-       coords 20.222 -0.032 13.707
-       angleY -132.383
-      }
-      Slot1 {
-       components {
-        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-         m_sObjectToSpawn "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et"
-        }
-       }
-       coords 60.114 -3.373 11.691
-       angleY -113.452
-      }
-      Slot2 {
-       components {
-        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-         m_sObjectToSpawn "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et"
-        }
-       }
-       coords 76.133 -4.089 19.096
-       angleY -115.146
-      }
      }
     }
    }
@@ -191,6 +126,12 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
  }
  Hill_Area {
   coords 2466.417 135.149 2289.632
+  {
+   GenericEntity : "{388B774519BD6294}Prefabs/Props/Wrecks/T62_wreck.et" {
+    coords 117.3 -24.207 248.35
+    angleY 161.387
+   }
+  }
  }
  Military_Area {
   coords 1443.013 37.047 2339.669
@@ -261,6 +202,92 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
      coords 170.193 -56.937 313.828
      angleY 0.849
     }
+   }
+  }
+ }
+ Arleville_Area {
+  coords 2752.073 77.309 1614.953
+  {
+   GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck.et" {
+    coords 310.854 -4.419 -39.383
+    angleX -0.451
+    angleY -89.349
+    angleZ -1.82
+   }
+   $grp GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck.et" {
+    {
+     coords 140.08 -6.243 65.083
+     angleX 3.079
+     angleY -119.362
+    }
+    {
+     coords 492.138 -66.749 -335.241
+     angleY 60.618
+    }
+    {
+     coords 398.535 -46.441 -258.49
+     angleZ 122.278
+    }
+    {
+     coords 310.145 -23.955 -118.259
+     angleX 11.523
+     angleY -31.193
+     angleZ -10.937
+    }
+   }
+   GenericEntity Arleville_Vics : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_ONE
+      m_iRandomPercent 50
+      m_eActivationType ON_INIT
+     }
+    }
+    coords -18.923 0.16 9.383
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      Slot2 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{85F0BD6AF0F42D6D}Prefabs/Vehicles/Wheeled/S105/S105_red.et"
+        }
+       }
+       coords 11.653 -0.03 4.496
+       angleY -131.344
+      }
+      Slot1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{8EB38BBD860DA06E}Prefabs/Vehicles/Wheeled/S105/S105_lightblue.et"
+        }
+       }
+       coords 61.152 -3.526 10.7
+       angleY -114.131
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{6BDDFE9FA1D4B2F0}Prefabs/Props/Wrecks/UAZ469_wreck.et" {
+    {
+     coords -31.009 0.49 12.005
+     angleX 11.562
+     angleY -123.568
+     angleZ -42.423
+    }
+    {
+     coords -54.244 0.126 57.789
+     angleY 18.234
+    }
+   }
+   GenericEntity : "{84CBCE9163176B3E}Prefabs/Props/Wrecks/S105_wreck.et" {
+    coords 55.242 -2.384 9.238
+    angleX 6.877
+    angleY 161.03
+    angleZ -117.651
+   }
+   GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_wreck_static.et" {
+    coords 89.643 -4.94 30
+    angleY 146.51
    }
   }
  }

@@ -70,14 +70,14 @@ SCR_AIGroup : "{4F7F7E8B05ADE07C}Prefabs/Groups/BLUFOR/1980s/Vehicles/Group_US80
 $grp PS_ManualMarker : "{E256B56F799AEB41}PrefabsEditable/Markers/BLUFORSpawnMarker.et" {
  {
   coords 1367.523 36.565 2381.088
-  angleY 0
+  angleY 54.166
  }
  {
   coords 1450.92 1.125 1795.458
-  angleY 0
+  angleY 30.521
  }
  {
   coords 1293.879 37.933 2881.601
-  angleY 0
+  angleY 33.465
  }
 }

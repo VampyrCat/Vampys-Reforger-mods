@@ -1,0 +1,215 @@
+SCR_FactionControlTriggerEntity US_KILL_OBJECTIVE {
+ coords 2230.542 148.27 2232.667
+ TriggerShapeType "Oriented Bounding Box"
+ BoxMins -2200 -200 -2000
+ BoxMaxs 1800 100 1800
+ TriggerActivationType "All changes"
+ OnActivate ""\
+ "		SCR_BaseGameMode gameMode = SCR_BaseGameMode.Cast(GetGame().GetGameMode());"\
+ "		Faction faction = GetGame().GetFactionManager().GetFactionByKey(\"US\");"\
+ "		int usIndex = GetGame().GetFactionManager().GetFactionIndex(faction);"\
+ "		gameMode.EndGameMode(SCR_GameModeEndData.CreateSimple(EGameOverTypes.EDITOR_FACTION_VICTORY, -1, usIndex));"\
+ "	"
+ m_sOwnerFactionKey "US"
+ m_fFriendlyRatioLimit 1
+}
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ Intelligence_Mission_Spawner {
+  components {
+   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+    m_SpawnChildren RANDOM_ONE
+   }
+  }
+  coords 2691.613 77.406 1671.596
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    Layer1 {
+     components {
+      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+       m_iRepeatedSpawnNumber 1
+      }
+     }
+     coords 0 0 0
+    }
+    Layer2 {
+     coords 0 0 0
+    }
+    Layer3 {
+     coords 0 0 0
+    }
+    Layer4 {
+     coords 0 0 0
+    }
+    Layer5 {
+     coords 0 0 0
+    }
+    Layer6 {
+     coords 0 0 0
+    }
+    Layer7 {
+     coords 0 0 0
+    }
+    Layer8 {
+     coords 0 0 0
+    }
+    Layer9 {
+     coords 0 0 0
+    }
+   }
+  }
+ }
+ Intelfiles_placeholders {
+  coords 2033.504 32.437 2019.498
+  {
+   $grp GenericEntity : "{131B8FB9240CCEB1}PrefabsEditable/Auto/Props/Furniture/TableSmall_01/E_TableSmall_01_LightWood.et" {
+    {
+     coords 1076.341 -4.32 715.289
+     angleY -50.463
+    }
+    {
+     coords -572.771 21.654 -857.812
+     angleY -50.463
+    }
+   }
+   $grp GenericEntity : "{5CF603986376EAA9}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01_base.et" {
+    IntelligenceFolder_E_01_base_619EAC16D69B72F3 {
+     coords 1076.35 -3.62 715.347
+    }
+    IntelligenceFolder_E_01_base_619EAC16E5622FF5 {
+     coords 264.855 61.931 -785.183
+    }
+    IntelligenceFolder_E_01_base_619EAC16E5622FF2 {
+     coords -432.005 8.684 348.451
+    }
+    IntelligenceFolder_E_01_base_619EAC16D69B72F2 {
+     coords -598.125 3.193 1163.622
+    }
+    IntelligenceFolder_E_01_base_619EAC16D69B72F4 {
+     coords 1532.617 40.049 626.946
+    }
+    IntelligenceFolder_E_01_base_619EAC16D69B72F5 {
+     coords 1033.635 52.927 -436.919
+    }
+    IntelligenceFolder_E_01_base_619EAC16E5622FF3 {
+     coords 715.103 50.43 -373.521
+    }
+    IntelligenceFolder_E_01_base_619EAC16D69B72F6 {
+     coords -570.86 23.005 -857.332
+     angleY -168.063
+    }
+    IntelligenceFolder_E_01_base_619EAC16D69B72F7 {
+     coords -1055.445 19.076 -609.615
+    }
+    IntelligenceFolder_E_01_base_619EAC16E5622FF4 {
+     coords -1325.116 -28.728 230.604
+    }
+    IntelligenceFolder_E_01_base_619EAC16E5622FF6 {
+     coords 342.549 -28.305 1221.315
+    }
+    IntelligenceFolder_E_01_base_619EAC16E5622FF7 {
+     coords 1198.539 -28.737 886.342
+    }
+    IntelligenceFolder_E_01_base_619EAC16D69B72F8 {
+     coords -629.176 -10.749 -205.643
+    }
+    IntelligenceFolder_E_01_base_619EAC16D69B72F9 {
+     coords -1035.131 -18.682 -39.794
+    }
+    IntelligenceFolder_E_01_base_619EAC16D69B72F10 {
+     coords 590.861 70.237 593.195
+    }
+    IntelligenceFolder_E_01_base_619EAC16E5622FF8 {
+     coords 266.198 67.489 305.141
+     angleX -12.284
+     angleZ -7.181
+    }
+    IntelligenceFolder_E_01_base_619ED99964045D52 {
+     coords -110.834 8.559 621.907
+    }
+    IntelligenceFolder_E_01_base_619EAC16E5622FF9 {
+     coords -161.102 18.334 1390.22
+    }
+    IntelligenceFolder_E_01_base_619EAC16D69B72F11 {
+     coords 1330.167 -30.089 -12.525
+     angleX -1.405
+     angleY -0.352
+     angleZ 11.915
+    }
+    IntelligenceFolder_E_01_base_619EAC16D69B72F12 {
+     coords -1400.497 -22.865 1474.406
+    }
+   }
+   $grp GenericEntity : "{A8122C6398FC8458}PrefabsEditable/Auto/Props/Furniture/TableSmall_01/E_TableSmall_01_DarkWood.et" {
+    {
+     coords -629.226 -11.449 -205.611
+    }
+    {
+     coords -431.997 7.984 348.431
+    }
+    {
+     coords -598.129 2.493 1163.596
+    }
+    {
+     coords 1532.624 39.349 626.932
+    }
+    {
+     coords 1033.665 52.227 -436.894
+    }
+    {
+     coords -1055.459 18.376 -609.599
+    }
+   }
+  }
+ }
+ KillOBJS {
+  coords 3148.59 12.723 2744.18
+  {
+   GenericEntity Kill_Officers : "{2008B4EE6C4D528E}Prefabs/ScenarioFramework/Components/LayerTaskKill.et" {
+    components {
+     SCR_ScenarioFrameworkLayerTaskKill "{5B02763B6A6D6C4B}" {
+      m_eActivationType ON_TASKS_INIT
+      m_aTriggerActionsOnFinish {
+       SCR_ScenarioFrameworkActionEndMission "{61AA8B83DCD55946}" {
+        m_eOverriddenGameOverType FACTION_VICTORY_SCORE
+       }
+      }
+     }
+    }
+    coords 17.339 -1.255 35.842
+    {
+     GenericEntity Officer_One : "{C70DC6CBD1AAEC9A}Prefabs/ScenarioFramework/Components/SlotKill.et" {
+      components {
+       SCR_ScenarioFrameworkSlotKill "{5B02763C1EAA0BF1}" {
+        m_sFactionKey "US"
+        m_aActivationActions {
+         SCR_ScenarioFrameworkActionWaitAndExecute "{61AA8B9F50F73760}" {
+          m_iDelayInSeconds 5
+         }
+        }
+        m_eEntityCatalogType CHARACTER
+        m_aIncludedEditableEntityLabels {
+         2 11
+        }
+        m_sTaskTitle "Kill HVT"
+        m_sTaskDescription "Murder"
+       }
+      }
+      coords 0.638 0.493 21.293
+     }
+    }
+   }
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    KillAILayer {
+     coords -1.823 0.014 0.851
+    }
+    Layer11 {
+     coords -3.122 0.015 1.731
+    }
+   }
+   SCR_ScenarioFrameworkLogicCounter LogicCounter1 : "{6C1792C71DCAFD55}Prefabs/ScenarioFramework/Components/LogicCounter.et" {
+    coords 7.922 -0.668 10.292
+    m_iCountTo 2
+   }
+  }
+ }
+}

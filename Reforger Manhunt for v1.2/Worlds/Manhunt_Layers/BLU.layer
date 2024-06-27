@@ -1,0 +1,46 @@
+SCR_AIGroup : "{93ECE153940F4451}Prefabs/Groups/BLUFOR/Group_US_MedicalSection_P.et" {
+ coords 1384.571 41.87 2378.99
+ angleY 157.262
+}
+SCR_AIGroup : "{AA90D8A7EC3E57FF}Prefabs/Groups/BLUFOR/Group_US_ReconTeam_P.et" {
+ coords 1386.759 36.208 2383.173
+ angleY 152.072
+}
+SCR_AIGroup : "{ABACC233796108ED}Prefabs/Groups/BLUFOR/Group_US_SniperTeam_P.et" {
+ coords 1387.898 36.153 2386.165
+ angleY 152.963
+}
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ Airport_Units {
+  coords 1293.558 37.915 2880.131
+  {
+   $grp SCR_VehicleSpawn {
+    {
+     coords 2.448 -0.153 -15.11
+     m_rnPrefab "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+    }
+    {
+     coords -15.402 1.1 7.751
+     m_rnPrefab "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+    }
+   }
+   SCR_AIGroup : "{412A7767B11310C5}Prefabs/Groups/Campaign/Group_US.et" {
+    coords -0.396 0.086 7.622
+    angleY 165.566
+    m_aUnitPrefabSlots {
+     "{E9601333852C6380}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et" "{E9601333852C6380}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et"
+    }
+    m_bSpawnImmediately 1
+    m_sCustomNameSet "Helicopter Transport Group"
+    m_bSetPlayable 1
+   }
+  }
+ }
+ Milibase_Units {
+  coords 1395.374 36.01 2380.328
+ }
+}
+SCR_AIGroup : "{FCBE9E46702ED307}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ_P.et" {
+ coords 1389.873 36.159 2380.046
+ angleY 148.893
+}
