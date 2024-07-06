@@ -570,6 +570,17 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
     coords -2.064 0.084 -13.941
     angleY 28.344
     angleZ 6.025
+    {
+     GenericEntity {
+      ID "5D3706BDADB12F3B"
+      {
+       GenericEntity {
+        ID "5E6A90B022FE573D"
+        coords 0 0 -4
+       }
+      }
+     }
+    }
    }
    GenericEntity : "{E027C0CF067256FA}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01.et" {
     coords 136.697 -7.668 -89.781

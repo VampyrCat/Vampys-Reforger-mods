@@ -1,26 +1,5 @@
-$grp SCR_VehicleSpawn {
- {
-  coords 1476.607 0 1772.214
-  m_rnPrefab "{0BB6CCE135878BBE}Prefabs/Vehicles/Naval/RHIB/RHIB_Base_Armed.et"
- }
- {
-  coords 1464.819 0 1778.229
-  m_rnPrefab "{A295678AF2AE1205}Prefabs/Vehicles/Naval/RHIB/RHIB_Base.et"
- }
-}
-SCR_AIGroup : "{93ECE153940F4451}Prefabs/Groups/BLUFOR/Group_US_MedicalSection_P.et" {
- coords 1384.571 41.87 2378.99
- angleY 157.262
-}
-SCR_AIGroup : "{AA90D8A7EC3E57FF}Prefabs/Groups/BLUFOR/Group_US_ReconTeam_P.et" {
- coords 1386.759 36.208 2383.173
- angleY 152.072
-}
-SCR_AIGroup : "{ABACC233796108ED}Prefabs/Groups/BLUFOR/Group_US_SniperTeam_P.et" {
- coords 1387.898 36.153 2386.165
- angleY 152.963
- m_sCustomNameSet "Recon Team"
- m_bSetPlayable 1
+Vehicle UH1H1 : "{49842C04DB51263D}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
+ coords 1326.789 37.969 2879.585
 }
 $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
  Airport_Units {
@@ -28,8 +7,9 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
   {
    $grp SCR_VehicleSpawn {
     {
-     coords 2.448 -0.153 -15.11
+     coords 2.348 -0.167 -16.176
      m_rnPrefab "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
+     respawnDelay 3
     }
     {
      coords -15.402 1.1 7.751
@@ -50,11 +30,55 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
  }
  Milibase_Units {
   coords 1395.374 36.01 2380.328
+  {
+   $grp SCR_VehicleSpawn {
+    {
+     coords -16.088 0.835 -16.881
+     m_rnPrefab "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et"
+    }
+    {
+     coords -19.323 0.781 -12.145
+     m_rnPrefab "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+    }
+    {
+     coords -23.104 0.366 -8.618
+     m_rnPrefab "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+    }
+    {
+     coords -30.423 0.402 -5.133
+     angleY -14
+     m_rnPrefab "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+    }
+    {
+     coords -25.343 0.388 -4.837
+     m_rnPrefab "{F649585ABB3706C4}Prefabs/Vehicles/Wheeled/M151A2/M151A2.et"
+    }
+    {
+     coords -39.911 0.467 -10.599
+     angleY -14
+     m_rnPrefab "{5168FEA3054D6D15}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB_MERDC.et"
+    }
+   }
+   SCR_AIGroup : "{93ECE153940F4451}Prefabs/Groups/BLUFOR/Group_US_MedicalSection_P.et" {
+    coords -10.803 5.86 -1.338
+    angleY 157.262
+   }
+   SCR_AIGroup : "{AA90D8A7EC3E57FF}Prefabs/Groups/BLUFOR/Group_US_ReconTeam_P.et" {
+    coords -8.615 0.198 2.845
+    angleY 152.072
+   }
+   SCR_AIGroup : "{ABACC233796108ED}Prefabs/Groups/BLUFOR/Group_US_SniperTeam_P.et" {
+    coords -7.476 0.143 5.837
+    angleY 152.963
+    m_sCustomNameSet "Recon Team"
+    m_bSetPlayable 1
+   }
+   SCR_AIGroup : "{FCBE9E46702ED307}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ_P.et" {
+    coords -5.501 0.149 -0.282
+    angleY 148.893
+    m_sCustomNameSet "PLT_LEAD"
+    m_bSetPlayable 1
+   }
+  }
  }
-}
-SCR_AIGroup : "{FCBE9E46702ED307}Prefabs/Groups/BLUFOR/Group_US_PlatoonHQ_P.et" {
- coords 1389.873 36.159 2380.046
- angleY 148.893
- m_sCustomNameSet "PLT_LEAD"
- m_bSetPlayable 1
 }

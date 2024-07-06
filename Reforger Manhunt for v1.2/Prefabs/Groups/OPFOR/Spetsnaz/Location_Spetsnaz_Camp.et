@@ -1,0 +1,96 @@
+GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ ID "59E8CDC4819B4FE1"
+ coords 2566.921 70.45 1209.079
+ {
+  GenericEntity : "{4DB3DF28BAFD3B32}Prefabs/Compositions/Misc/FreeRoamBuilding/CamoNetLarge_M_USSR_01.et" {
+   ID "61B91E5ED9441201"
+   coords 0.561 -0.112 1.722
+   angleX 7.635
+   angleY -64.797
+   angleZ 1.907
+   {
+    GenericEntity {
+     ID "5D72B620B3944E3F"
+     coords -3.456 0.55 1.063
+     angleX -0.117
+     angleY 0.297
+     angleZ 4.795
+    }
+   }
+  }
+  $grp StaticModelEntity : "{75A7C06222E6218B}Prefabs/Structures/Military/Camps/TentSmallUSSR_01/TentSmallUSSR_01.et" {
+   {
+    ID "61B91E5ED9441204"
+    coords -2.868 0.458 0.977
+    angleX 0.65
+    angleY 1.116
+    angleZ 10.158
+   }
+   {
+    ID "61B91E5ED9441205"
+    coords 3.559 -0.652 0.642
+    angleX -0.385
+    angleY 0.405
+    angleZ 9.348
+   }
+   {
+    ID "61B91E5ED9459D91"
+    coords 0.59 -0.107 -4.541
+    angleX 0.602
+    angleY 0.562
+    angleZ 9.053
+   }
+  }
+  StaticModelEntity : "{7DF5C55FEE521DB2}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_RadioStation_USSR_01.et" {
+   ID "61B91E5ED9459D9D"
+   coords 1.085 -0.362 5.071
+   angleX 7.398
+   angleY -147.2
+   angleZ -11.183
+  }
+  $grp GenericEntity : "{84E8458C841C1808}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_USSR_01.et" {
+   {
+    ID "61B91E5ED9459D84"
+    coords -0.796 -0.095 -4.985
+    angleX 10.484
+    angleY -108.906
+    angleZ -0.521
+   }
+   {
+    ID "61B91E5ED9459D85"
+    coords 4.673 -1.069 1.068
+    angleX -10.98
+    angleY 72.937
+    angleZ 1.989
+   }
+  }
+  $grp GenericEntity : "{AC6DC9D2E040268A}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagRoundHighBurlap_S_USSR_01.et" {
+   {
+    ID "61B91E5ED9459D81"
+    coords -5.379 0.962 2.143
+    angleX 18.123
+    angleY -66.974
+   }
+   {
+    ID "61B91E5ED945CAEF"
+    coords 1.567 -0.504 5.983
+    angleX -8.571
+    angleY 29.211
+    angleZ 9.933
+   }
+  }
+  GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   ID "61B91E5ED945CAE0"
+   coords 0.784 -0.073 -2.924
+   angleY 1.738
+   angleZ 9.36
+  }
+  GenericEntity : "{F4123D86F860B5E1}Prefabs/Props/Garbage/Medical/GarbageMedicalUSSR_02.et" {
+   ID "61B91E5ED945CAE4"
+   coords 1.617 -0.241 0.468
+   angleX 1.259
+   angleY 0.253
+   angleZ 12.225
+  }
+ }
+}

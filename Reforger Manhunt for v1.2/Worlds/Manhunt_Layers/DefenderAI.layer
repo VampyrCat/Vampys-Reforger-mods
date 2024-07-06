@@ -1,0 +1,80 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ AnglerBluDefencesAI {
+  coords 579.066 30.463 2734.204
+  {
+   GenericEntity def1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    coords -10.026 -0.395 -5.759
+    {
+     SCR_DefendWaypoint Defend1 : "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et" {
+      coords -7.615 -1.442 13.203
+     }
+    }
+   }
+   GenericEntity SlotAI1 : "{8D43830F02C3F114}Prefabs/ScenarioFramework/Components/SlotAI.et" {
+    components {
+     SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+      m_sFactionKey "US"
+      m_sObjectToSpawn "{F72EF3429D8C8DF5}Prefabs/Groups/BLUFOR/Group_US_AmmoTeam.et"
+      m_WaypointSet SCR_ScenarioFrameworkWaypointSet "{61B91E4885ACE146}" {
+       m_aLayerName {
+        "def1"
+       }
+      }
+     }
+    }
+    coords -20.755 -2.012 9.546
+   }
+  }
+ }
+ AdderHillDefendAI {
+  coords 1198.606 37.717 3434.765
+  {
+   $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    def2 {
+     coords 11.912 -0.211 -2.438
+     {
+      SCR_DefendWaypoint : "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et" {
+       coords -4.64 1.006 -1.885
+      }
+     }
+    }
+    def3 {
+     coords -27.509 -11.942 19.665
+     {
+      SCR_DefendWaypoint : "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et" {
+       coords -4.64 1.006 -1.885
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{8D43830F02C3F114}Prefabs/ScenarioFramework/Components/SlotAI.et" {
+    SlotAI2 {
+     components {
+      SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+       m_sObjectToSpawn "{3BF36BDEEB33AEC9}Prefabs/Groups/BLUFOR/Group_US_SentryTeam.et"
+       m_WaypointSet SCR_ScenarioFrameworkWaypointSet "{61B91E4E4CB4C1A7}" {
+        m_aLayerName {
+         "def2"
+        }
+       }
+      }
+     }
+     coords -1.716 0.391 -1.969
+    }
+    SlotAI4 {
+     components {
+      SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
+       m_sObjectToSpawn "{3BF36BDEEB33AEC9}Prefabs/Groups/BLUFOR/Group_US_SentryTeam.et"
+       m_WaypointSet SCR_ScenarioFrameworkWaypointSet "{61B91E4E4CB4C1A7}" {
+        m_aLayerName {
+         "def3"
+        }
+       }
+      }
+     }
+     coords -22.383 -11.172 14.418
+    }
+   }
+  }
+ }
+}

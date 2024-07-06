@@ -1,0 +1,501 @@
+$grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+ arleville {
+  coords 2747.657 77.615 1630.694
+  {
+   GenericEntity Vicspawns : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 20
+     }
+    }
+    coords 1.408 -0.218 -1.413
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      Slot3 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 19.328 0.308 29.76
+       angleY -135.604
+      }
+      Slot1 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 12.749 0.155 37.12
+       angleY -131.244
+      }
+      Slot5 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 9.854 0.14 40.719
+       angleY -132.41
+      }
+      Slot6 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 51.388 -3.747 19.172
+       angleY 158.41
+      }
+      Slot7 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{B2CC137FE424B129}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_VAK.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 68.698 -4.477 29.507
+       angleY 143.18
+      }
+      Slot9 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 88.526 -5.159 43.43
+       angleY 143.18
+      }
+      Slot10 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_blue.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 109.173 -5.432 57.963
+       angleY 155.005
+      }
+      Slot11 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{A2E23CB8DDCFE82E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_base.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 31.443 -1.897 -35.94
+       angleY -24.043
+      }
+      Slot12 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_forest.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 66.087 -3.367 -19.855
+       angleY -24.043
+      }
+      Slot8 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et"
+        }
+       }
+       coords -22.381 0 -34.055
+       angleY -85.324
+      }
+      Slot13 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et"
+        }
+       }
+       coords -17.186 0.134 17.11
+       angleY -135.025
+      }
+      Slot27 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{16A674FE31B0921C}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 10.043 -2.81 -57.425
+       angleY 82.457
+      }
+     }
+    }
+   }
+  }
+ }
+ BeauregardVics {
+  coords 3118.16 16 2731.1
+  {
+   GenericEntity Vicspawns2 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 40
+     }
+    }
+    coords 20.515 8.722 11.004
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      Slot15 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{54C3CC22DEBD57BE}Prefabs/Vehicles/Wheeled/S105/S105_beige.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 15.222 -12.872 47.265
+       angleY -135.604
+      }
+      Slot16 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9C3269FB43F989A3}Prefabs/Vehicles/Wheeled/S105/S105_darkblue.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords -54.753 -8.786 -0.334
+       angleY -136.007
+      }
+      Slot17 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{8000A0F649FB4B0D}Prefabs/Vehicles/Wheeled/S105/S105_darkred.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords -6 -12.734 23.795
+       angleY -132.41
+      }
+      Slot18 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{5070B3749C7782D8}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_JZD.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords -65.583 -12.96 141.194
+       angleY 129.712
+      }
+      Slot19 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{B2CC137FE424B129}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_VAK.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 32.896 -14.364 97.734
+       angleY -125.433
+      }
+      Slot20 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C8B16ABCA57679A2}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_blue.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 91.618 -16.764 70.03
+       angleY 58.386
+      }
+      Slot21 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords -103.375 -11.903 121.681
+       angleY -142.41
+      }
+      Slot22 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{A2E23CB8DDCFE82E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_base.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords 19.007 -11.579 -22.324
+       angleY -57.082
+      }
+      Slot23 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1449105FD658EDFB}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_forest.et"
+         m_eEntityCatalogType VEHICLE
+         m_aIncludedEditableEntityLabels {
+          13 3 50 260
+         }
+        }
+       }
+       coords -18.278 -13.082 75.992
+       angleY 40.032
+      }
+      Slot24 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{AD80FB47D868C775}Prefabs/Vehicles/Wheeled/S105/S105_green.et"
+        }
+       }
+       coords -39.995 -8.743 -34.298
+       angleY -55.576
+      }
+      Slot25 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et"
+        }
+       }
+       coords 37.255 -12.366 19.027
+       angleY -66.582
+      }
+      Slot34 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et"
+        }
+       }
+       coords 114.002 -22.722 194.125
+       angleY 53.934
+      }
+      Slot36 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et"
+        }
+       }
+       coords 79.205 -22.752 203.949
+       angleY 53.934
+      }
+      Slot37 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et"
+        }
+       }
+       coords 110.357 -22.444 137.141
+       angleY -26.145
+      }
+      Slot38 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et"
+        }
+       }
+       coords 118.311 -22.675 144.9
+       angleY -39.414
+      }
+     }
+    }
+   }
+  }
+ }
+ Rural {
+  coords 2062.268 78.34 1151.698
+  {
+   GenericEntity VicSpawn3 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 20
+     }
+    }
+    coords 20.515 8.722 11.004
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      Slot35 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et"
+        }
+       }
+       coords 224.509 3.427 90.442
+       angleY -60.021
+      }
+      Slot26 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{B6D330E7E40FE7DD}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_forest.et"
+        }
+       }
+       coords 26.12 -25.288 -120.482
+       angleY 6.704
+      }
+      Slot28 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1B0D46B41C50873D}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_Randomized.et"
+        }
+       }
+       coords -649.438 -57.312 -13.599
+       angleY 167.029
+      }
+      Slot29 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1B0D46B41C50873D}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_Randomized.et"
+        }
+       }
+       coords -178.001 -84.278 377.675
+       angleY 167.029
+      }
+      Slot30 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1B0D46B41C50873D}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_Randomized.et"
+        }
+       }
+       coords 127.211 -33.442 1738.982
+       angleY 167.029
+      }
+      Slot31 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et"
+        }
+       }
+       coords -93.905 -35.387 1863.912
+       angleY -65.963
+      }
+      Slot32 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1B0D46B41C50873D}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_Randomized.et"
+        }
+       }
+       coords 159.013 -33.301 1720.11
+       angleY -130.835
+      }
+      Slot33 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1B0D46B41C50873D}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_CIV_Randomized.et"
+        }
+       }
+       coords 261.964 -84.452 2097.379
+       angleY -154.47
+      }
+     }
+    }
+   }
+  }
+ }
+ TheHill {
+  coords 2511.643 147.527 2288.219
+  {
+   GenericEntity vicspawn5 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 20
+     }
+    }
+    coords 1.408 -0.218 -1.413
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+      Slot14 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et"
+        }
+       }
+       coords 24.781 -2.938 -12.522
+       angleY -94.317
+      }
+      Slot40 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et"
+        }
+       }
+       coords 22.459 -3.121 -8.211
+       angleY -127.625
+      }
+      Slot41 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et"
+        }
+       }
+       coords 18.332 -3.437 -4.744
+       angleY -165.413
+      }
+      Slot42 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{27E2E58E734A80EC}Prefabs/Vehicles/Wheeled/M998/M1025_MERDC.et"
+        }
+       }
+       coords 10.726 -3.023 -6.278
+       angleY 161.429
+      }
+     }
+    }
+   }
+  }
+ }
+}
