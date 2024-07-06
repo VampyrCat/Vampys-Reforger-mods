@@ -223,15 +223,12 @@ SCR_BaseTaskManager TaskManager : "{1AC69CD7907FB4F8}Prefabs/ScenarioFramework/T
   }
  }
 }
-SCR_ScenarioFrameworkLogicCounter LogicCounter1 : "{6C1792C71DCAFD55}Prefabs/ScenarioFramework/Components/LogicCounter.et" {
- coords 2657.161 80.342 1898.541
- m_aActions {
-  SCR_ScenarioFrameworkActionSetEntityPosition "{61BAE72E8E58ECD6}" {
+GenericEntity : "{7699E66077068406}Prefabs/World/Game/ForestSyncManager.et" {
+ components {
+  SCR_DestructibleTreesSynchManager "{0F2AA7509D8C0688}" {
+   m_bPrintTreeDamage 1
   }
  }
- m_iCountTo 0
-}
-GenericEntity : "{7699E66077068406}Prefabs/World/Game/ForestSyncManager.et" {
  coords 2033.008 33.426 2024.589
 }
 SCR_SoundManagerEntity : "{8DA7881467F7628A}Prefabs/Sounds/SoundManager.et" {

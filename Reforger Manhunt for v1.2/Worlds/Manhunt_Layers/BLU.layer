@@ -1,6 +1,3 @@
-Vehicle UH1H1 : "{49842C04DB51263D}Prefabs/Vehicles/Helicopters/UH1H/UH1H.et" {
- coords 1326.789 37.969 2879.585
-}
 $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
  Airport_Units {
   coords 1293.558 37.915 2880.131
