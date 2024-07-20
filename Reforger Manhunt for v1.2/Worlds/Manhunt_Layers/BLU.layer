@@ -1,10 +1,22 @@
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 5
+   m_aIncludedEditableEntityLabels {
+    13 3 50
+   }
+   m_bRequireAllIncludedLabels 1
+  }
+ }
+ coords 1349.884 38.001 2886.573
+}
 $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
  Airport_Units {
-  coords 1293.558 37.915 2880.131
+  coords 1294.02 37.822 2871.32
   {
    $grp SCR_VehicleSpawn {
     {
-     coords 2.348 -0.167 -16.176
+     coords 6.887 -0.198 -8.622
      m_rnPrefab "{D03C0F6044DB5208}Prefabs/Vehicles/Helicopters/UH1H/UH1H_base.et"
      respawnDelay 3
     }
@@ -14,7 +26,7 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
     }
    }
    SCR_AIGroup : "{412A7767B11310C5}Prefabs/Groups/Campaign/Group_US.et" {
-    coords -0.396 0.086 7.622
+    coords -0.643 0.19 15.514
     angleY 165.566
     m_aUnitPrefabSlots {
      "{E9601333852C6380}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et" "{E9601333852C6380}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_HeliPilot_P.et"

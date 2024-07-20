@@ -1,28 +1,34 @@
 GenericEntity IslandItself : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
  components {
   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+   m_aActivationActions {
+    SCR_ScenarioFrameworkCreateVariable "{61E6A5AF6A57602D}" {
+     m_sVariableName "escape"
+     m_sVariableValue "0"
+    }
+   }
    m_fAreaRadius 1
   }
  }
  coords 2199.536 72.619 2456.653
  {
-  GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
-   coords 287.33 67.72 -254.816
-   {
-    GenericEntity SlotPick1 : "{9F70B00322910AED}Prefabs/ScenarioFramework/Components/SlotPick.et" {
-     components {
-      SCR_ScenarioFrameworkSlotPick "{5A2283FD60F69A1A}" {
-       m_sFactionKey "USSR"
-       m_sObjectToSpawn "{6D56FED1E55A8F84}Prefabs/Items/Misc/IntelligenceFolder_E_01/IntelligenceFolder_E_01.et"
+  GenericEntity EscapeObjs : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+   components {
+    SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+     m_iRandomPercent 20
+     m_bEnableRepeatedSpawn 1
+     m_iRepeatedSpawnNumber 3
+     m_fRepeatedSpawnTimer 20
+     m_eActivationType ON_INIT
+     m_aActivationConditions {
+      SCR_ScenarioFrameworkVariableValueCondition "{61E6A5ABB07A227F}" {
+       m_sVariableName "escape"
+       m_sVariableValueToCheck "1"
       }
      }
-     coords 21.935 8.31 69.914
     }
    }
-  }
-  SCR_ScenarioFrameworkLogicCounter IntelFolderCounter : "{6C1792C71DCAFD55}Prefabs/ScenarioFramework/Components/LogicCounter.et" {
-   coords -171.561 -34.465 -409.746
-   m_iCountTo 3
+   coords 304.574 69.994 -237.271
   }
  }
 }

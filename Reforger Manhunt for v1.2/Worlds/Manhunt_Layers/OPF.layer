@@ -10,57 +10,82 @@ GenericEntity ArlandArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Componen
    coords 80.597 -12.328 -150.396
    {
     SCR_AIGroup : "{11BE66673F658BAC}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_Infiltrators_P.et" {
-     coords 170.836 -43.164 -102.952
-     angleY -39.191
-     m_bDeleteWhenEmpty 0
-     m_bPlayable 1
+     coords 127.538 -31.884 -173.06
     }
-    GenericEntity TeleportInitiator : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
-     coords 1.075 -0.23 -0.74
-     {
-      GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
-       components {
-        SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
-         m_eActivationType SAME_AS_PARENT
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionWaitAndExecute "{61CD0004595CF9BF}" {
-           m_iDelayInSeconds 1
-           m_bLooped 1
-           m_aActions {
-            SCR_ScenarioFrameworkActionSetEntityPosition "{61CD00046063F462}" {
-             m_EntityGetter SCR_ScenarioFrameworkGetEntityByName "{61CD00046CAC9656}" {
-              m_sEntityName "Character_USSR_SF_SL_P"
-             }
-             m_DestinationEntityGetter SCR_ScenarioFrameworkGetArea "{61CD00046956DF59}" {
-              m_sAreaName "ArlandArea"
-             }
-            }
-           }
-          }
-         }
-         m_fAreaRadius 1000
-         m_aTriggerActions {
-          SCR_ScenarioFrameworkActionWaitAndExecute "{61CD000474BCDA83}" {
-           m_iDelayInSeconds 1
-           m_bLooped 1
-           m_aActions {
-            SCR_ScenarioFrameworkActionSetEntityPosition "{61CD00047F095534}" {
-             m_EntityGetter SCR_ScenarioFrameworkGetEntityByName "{61CD000493A2759A}" {
-              m_sEntityName "Character_USSR_SF_SL_P"
-             }
-             m_DestinationEntityGetter SCR_ScenarioFrameworkGetArea "{61CD00049CDB431E}" {
-              m_sAreaName "ArlandArea"
-             }
-            }
-           }
-          }
-         }
-        }
-       }
-       coords -80.945 11.755 151.507
-      }
-     }
-    }
+   }
+  }
+  $grp GenericEntity : "{934A3C3A870634DC}PrefabsEditable/System/E_Comment.et" {
+   USSR_SPAWN_1 {
+    coords -76.41 -37.887 -1194.632
+   }
+   USSR_SPAWN_2 {
+    coords -733.159 -84.916 -1468.099
+   }
+   USSR_SPAWN_3 {
+    coords -296.276 -27.4 -533.794
+   }
+   USSR_SPAWN_4 {
+    coords 639.34 -71.399 7.837
+   }
+   USSR_SPAWN_5 {
+    coords 722.705 -73.768 268.245
+   }
+   USSR_SPAWN_6 {
+    coords 104.808 -22.809 416.767
+   }
+   USSR_SPAWN_7 {
+    coords -238.614 -10.153 164.441
+   }
+   USSR_SPAWN_8 {
+    coords -1781.083 -100.243 -930.281
+   }
+   USSR_SPAWN_9 {
+    coords -1837.742 -91.483 -150.185
+   }
+   USSR_SPAWN_10 {
+    coords -1611.304 -65.939 583.442
+   }
+   USSR_SPAWN_11 {
+    coords -1022.527 -89.343 998.181
+   }
+   USSR_SPAWN_12 {
+    coords -502.597 -100.894 1027.712
+   }
+   USSR_SPAWN_13 {
+    coords 337.595 -96.367 917.73
+   }
+   USSR_SPAWN_14 {
+    coords 370.087 -85.394 607.906
+   }
+   USSR_SPAWN_15 {
+    coords 968.765 -78.879 283.283
+   }
+   USSR_SPAWN_16 {
+    coords 749.201 -90.569 -529.111
+   }
+   USSR_SPAWN_17 {
+    coords 842.977 -98.855 -793.238
+   }
+   USSR_SPAWN_18 {
+    coords 754.239 -95.915 -1021.947
+   }
+   USSR_SPAWN_19 {
+    coords 387.826 -95.706 -1184.844
+   }
+   USSR_SPAWN_20 {
+    coords 271.504 -46.875 -910.353
+   }
+   USSR_SPAWN_21 {
+    coords 232.148 -39.827 -591.033
+   }
+   USSR_SPAWN_22 {
+    coords -125.588 -30.767 -881.022
+   }
+   USSR_SPAWN_23 {
+    coords -324.866 -45.622 -1330.92
+   }
+   USSR_SPAWN_24 {
+    coords -409.84 -47.641 -938.695
    }
   }
  }

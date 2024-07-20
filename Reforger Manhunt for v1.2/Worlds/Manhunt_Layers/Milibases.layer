@@ -2,6 +2,11 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
  coords 2033.122 33.266 2023.837
 }
 GenericEntity : "{947BFB8F2FCCAC6F}PrefabsEditable/Auto/Props/Military/Compositions/US/E_FuelService_US_Large.et" {
+ components {
+  RplComponent "{5CB8A6AD6CA2D319}" {
+   Enabled 0
+  }
+ }
  coords 2214.869 53.449 2882.93
  angleY 160.396
 }
@@ -850,5 +855,10 @@ $grp GenericEntity : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Are
  }
 }
 StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+ components {
+  RplComponent "{59F4D7DB7CCA3C99}" {
+   Enabled 0
+  }
+ }
  coords 976.733 31.777 1408.415
 }

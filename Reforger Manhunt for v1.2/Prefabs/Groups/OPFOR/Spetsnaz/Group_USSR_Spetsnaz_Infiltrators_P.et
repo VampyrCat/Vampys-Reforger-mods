@@ -1,10 +1,11 @@
 SCR_AIGroup : "{D0372E0E86076022}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_Squad_P.et" {
  ID "0000000000000001"
- coords 3229.312 63.488 1491.144
- angleY -61.822
+ coords 2851.203 64.166 2079.746
  m_aUnitPrefabSlots {
   "{DCA8F0347083D90F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_SL_P.et" "{0D7AF7EC9908AF82}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_MG_P.et" "{32AB0D83A9FF6F67}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Sharpshooter_P.et" "{BF5B1131DCC510CF}Prefabs/Characters/Factions/OPFOR/USSR_Army/Spetsnaz/Character_USSR_SF_Sapper_P.et"
  }
+ m_bDeleteWhenEmpty 0
+ m_bPlayable 1
  m_sCustomNameSet "Spetsnaz Infiltrator"
  m_bSetPlayable 1
 }
