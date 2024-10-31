@@ -1,27 +1,4 @@
 SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
- components {
-  NavmeshWorldComponent "{5584F30E67F617AD}" {
-   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{61D8CAF224149419}" {
-     NavmeshFile "{FA94770AE4F52B83}worlds/MP/Navmeshes/Coop_CombatOps_Arland.nmn"
-    }
-   }
-  }
-  NavmeshWorldComponent "{5584F30EEFEE1223}" {
-   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
-     NavmeshFile "{39DC008432CB842C}worlds/MP/Navmeshes/Coop_CombatOps_Arland_vehicles.nmn"
-    }
-   }
-  }
-  NavmeshWorldComponent "{5C8C9B750D124A63}" {
-   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
-    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
-     NavmeshFile "{804386FFEB7B7EFD}worlds/MP/Navmeshes/LowResArland.nmn"
-    }
-   }
-  }
- }
  coords 2033.122 32.313 2018.837
  {
   CommentEntity {
@@ -40,57 +17,7 @@ PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/Perc
  coords 2033.122 33.266 2023.837
 }
 PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
- components {
-  SCR_ReconnectComponent "{5A02809D5E8ABE42}" {
-   Enabled 1
-  }
-  SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_bRandomStartingDaytime 1
-   m_bRandomStartingDaytimeRange 1
-   m_iRangeHoursStart 20
-   m_iRangeHoursEnd 3
-   m_fDayTimeAcceleration 10
-   m_fNightTimeAcceleration 8
-   m_bRandomStartingWeather 1
-  }
- }
- coords 2037.41 32.585 2019.849
- OnGameStart ""\
- "				super.OnGameStart();"\
- "		"\
- "		/* set variable values */"\
- "		"\
- "		"\
- "		"\
- "		/* set values within arrays */"\
- "		string playerSpawnGroup = \"{11BE66673F658BAC}Prefabs/Groups/OPFOR/Spetsnaz/Group_USSR_Spetsnaz_Infiltrators_P.et\""\
- "		array<string> spawnPositions = {\"USSR_SPAWN_1\", \"USSR_SPAWN_2\", \"USSR_SPAWN_3\", \"USSR_SPAWN_4\", \"USSR_SPAWN_5\", \"USSR_SPAWN_6\", \"USSR_SPAWN_7\", \"USSR_SPAWN_8\", \"USSR_SPAWN_9\", \"USSR_SPAWN_10\", \"USSR_SPAWN_11\", \"USSR_SPAWN_12\", \"USSR_SPAWN_13\", \"USSR_SPAWN_14\", \"USSR_SPAWN_15\", \"USSR_SPAWN_16\", \"USSR_SPAWN_17\", \"USSR_SPAWN_18\", \"USSR_SPAWN_19\", \"USSR_SPAWN_20\", \"USSR_SPAWN_21\", \"USSR_SPAWN_22\", \"USSR_SPAWN_23\", \"USSR_SPAWN_24\"};"\
- "		"\
- "		/* Get Random Val */"\
- "		Math.Randomize(-1);"\
- "		int rand = Math.RandomInt(0, 23);"\
- "		"\
- "		/* set spawn pos */"\
- "		IEntity spawnPoint = GetGame().GetWorld().FindEntityByName(spawnPositions[rand]);"\
- "		"\
- "		AISpawnerGroup"\
- "		"\
- "		/* execute player group spawning */"\
- "		GetGame().SpawnEntityPrefab(playerSpawnGroup, false, );"\
- "	"
- m_eTestGameFlags 6
- m_bAllowFactionChange 1
- m_fAutoReloadTime 20
- m_bRemoveRedundantUnits 1
- m_bRemoveSquadMarkers 1
- m_iFreezeTime 20
- m_aFactionRespawnCount {
-  PS_FactionRespawnCount "{61D8CAF0B8A8F2E2}" {
-   m_sFactionKey "US"
-   m_iCount 50
-   m_iTime 3000
-  }
- }
+ coords 2034.722 33.276 2023.728
 }
 SCR_BaseTaskManager TaskManager : "{1AC69CD7907FB4F8}Prefabs/ScenarioFramework/Tasks/TaskManager.et" {
  coords 2033.122 32.501 2019.837
